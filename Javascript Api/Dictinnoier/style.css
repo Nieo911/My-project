@@ -1,0 +1,36 @@
+*{
+  padding: 0;margin: 0;box-sizing: border-box;
+}
+body{
+  background-color:  rgb(127, 226, 250);
+}
+.container .content{
+  position: absolute;
+  background-color: #fff;
+ height: 35%;left: 30%;top: 30%;width: 40%;
+ border-radius: 14px;
+}
+.container .content input{
+  position: relative;
+  left: 5vh;top:3vh ;
+  border: none;
+  outline: none;
+  border-bottom: 3px solid  rgb(127, 226, 250);
+}
+.btn{
+  position: relative;
+  left: 15vh;top:3vh ;
+  padding: 6px 9px;
+  background-color: #fff;
+  border: 1px solid  rgb(95, 173, 192);
+  border-radius: 8px;
+}
+.word{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  position: absolute;
+}
+.word h3{
+  
+}

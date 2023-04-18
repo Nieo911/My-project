@@ -1,0 +1,367 @@
+*{
+  padding: 0;margin: 0;box-sizing: border-box;
+  text-decoration: none;list-style: none;
+}
+header span{
+  color: rgb(225, 213, 213);
+  font-family: sans-serif;
+  font-size: 25px;
+  position: relative;top: 3.5vh;right: 2vh;
+}
+header{
+  padding: 0 2rem;
+  background-color: rgb(2, 2, 12);
+  position: fixed;
+  width: 100%;z-index: 1000;
+}
+.navbar ul{
+  display: flex;
+  align-items: center;
+  justify-content:right;
+  gap: 5vh;
+  position: relative;
+  right: 4vh;
+}
+
+.navbar ul li a{
+  color: rgb(225, 213, 213);
+  font-family: sans-serif;
+  font-size: 14px;
+}
+.navbar ul li a:hover{
+  color: rgba(240, 68, 68, 0.681);
+}
+html{
+  font-size: 62.5;
+  overflow-x: hidden;
+}
+
+header .fa-bars{
+  display: none;
+}
+/************Home***************/
+.Home .content a{
+  font-family: sans-serif;
+  font-size: 12px;
+  padding:2rem 7rem;
+}
+.Home .content h1{
+  font-family: sans-serif;
+  padding: 2rem 4rem;
+  width: 47%;
+}
+.Home .content img{
+  width: 94%;
+  height: 230px;
+  border-radius: 10px;
+  margin-left: 4vh;
+  background-size: contain;
+}
+.Home .seach h1{
+  font-family: sans-serif;
+  padding: 2rem 4rem;
+  width: 40%;
+}
+.Home .seach p{
+  width: 40%;
+  font-size: 12px;
+  font-family: sans-serif;
+  padding: 0 4rem;
+  line-height: 18px;
+}
+.Home .subsrib input{
+  margin-left: 4rem;
+  margin-top: 7px;
+  padding: 8px 3px;
+  width: 140px;
+  border: 0.5px solid rgb(220, 212, 212);
+  border-radius: 8px;
+  background-color: #fff;
+}
+.Home .subsrib button{
+  padding: 6px 12px;
+  color: #fff;
+  border: 0.5px solid rgb(220, 212, 212);
+  border-radius: 8px;
+  background-color: rgb(60, 102, 240);
+  cursor: pointer;
+}
+.Home .subsrib h6{
+  margin-left: 14vh;
+  padding: 2vh 0 0 0;
+}
+/**********Services**********/
+.Services h1{
+  font-family: sans-serif;
+  width: 30%;
+  margin-top: 14vh ;margin-left: 12vh;
+}
+.Services .cards{
+  display: flex;
+  flex-direction: row;
+  margin: 4rem;
+}
+.Services .cards .card{
+  padding-bottom: 2vh;
+}
+.Services .cards .card:hover{
+  border-radius: 14px;
+background: #e0e0e0;
+box-shadow:  -5px -5px 10px #ffffff,
+              5px 5px 10px rgb(81, 194, 247);
+
+}
+.Services .cards .card i{
+padding: 1rem;
+font-size: 25px;
+}
+.Services .cards .card h2{
+  font-family: sans-serif;
+  padding: 1rem;
+}
+.Services .cards .card p{
+  padding: 1rem;
+  width: 85%;
+  font-family: sans-serif;
+}
+.Services .cards .card button{
+  margin-left: 1rem;
+  background-color: rgba(232, 222, 222, 0.914);
+  color: rgb(192, 181, 181);
+  padding: 5px 10px;
+  border: 1px solid rgb(206, 199, 199);
+  border-radius: 12px;
+  cursor: pointer;
+}
+.Services .cards .card button:hover{
+  color: #fff;
+  background-color:rgb(11, 158, 226) ;
+}
+/*************Our-Works******************/
+.Our-Works h1{
+  font-family: sans-serif;
+  width: 25%;
+  position: relative;left: 8vh;
+}
+.Our-Works .parts{
+  display: flex;
+  margin: 10vh;
+}
+.Our-Works .parts .part .box img{
+  width: 90%;
+  height: 90%;
+  border-radius: 14px;
+}
+.Our-Works .parts .part .box h6{
+  font-family: sans-serif;
+  color: rgb(135, 129, 129);
+  padding: 6px 0;
+}
+.Our-Works .parts .part .box h4{
+  padding: 6px 0;
+  font-family: sans-serif;
+}
+.Our-Works .parts .parte{
+  position: relative;
+  bottom: 20vh;
+}
+.Our-Works .parts .parte .boxs img{
+  width: 90%;
+  height: 90%;
+  border-radius: 14px;
+  z-index: 0;
+}
+.Our-Works .parts .parte .boxs h4{
+  padding: 6px 0;
+  font-family: sans-serif;
+}
+.Our-Works .parts .parte .boxs h6{
+  font-family: sans-serif;
+  color: rgb(135, 129, 129);
+  padding: 6px 0;
+}
+.link{
+  position: absolute;
+  left: 48vh;
+  margin-top: 16vh;
+  color: rgb(17, 127, 223);
+}
+
+/***************Clients*****************/
+.Clients .teams{
+display: flex;
+}
+.Clients .teams .images span img{
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+}
+.Clients .teams .desc{
+  margin-left: 9vh;
+}
+.Clients .teams .desc h6{
+  padding-top: 6px;
+  font-family: sans-serif;
+  color: rgba(241, 40, 40, 0.997);
+}
+.Clients .teams .desc h3{
+width: 40%;
+padding-top: 6px;
+font-family: sans-serif;
+}
+.Clients .teams .desc p{
+  width: 60%;
+  padding-top: 6px;
+  font-family: sans-serif;
+}
+.Clients .comment p{
+  width: 50%;
+  display: flex;
+  margin-left: 10vh;
+  padding-top: 2rem;
+  font-family: sans-serif;
+}
+.Clients .comment img{
+  width: 50px;height: 50px;
+  margin-left: 10vh;
+  margin-top: 2vh;
+}
+.Clients .comment span{
+  position: relative;
+  left: 22vh;bottom: 10vh;
+}
+/***********Contact*************/
+.Contact{
+  background-color: rgb(2, 2, 12);
+  height:40vh ;
+}
+.Contact .fin{
+  display: flex;
+  flex-direction: row;
+  gap: 28vh;
+  margin-left: 8vh;
+}
+.Contact .fin .navbar2 ul{
+  display: flex;
+  flex-direction: column;
+  gap: 2vh;
+  padding-top: 5vh;
+}
+.Contact .fin .navbar2 ul li a{
+  color: #fff;
+  font-family: sans-serif;
+  font-size: 14px;
+}
+.Contact .fin .navbar2 ul li a:hover{
+  color: rgba(240, 68, 68, 0.681);
+}
+.Contact .fin .icons{
+  padding-top:9vh;
+}
+.Contact .fin .subsrib2{
+  padding-top: 5vh;
+}
+.Contact .fin .subsrib2 input{
+  padding: 8px 3px;
+  width: 140px;
+  border: 0.5px solid rgb(220, 212, 212);
+  border-radius: 8px;
+  background-color: #fff;
+}
+.Contact .fin .subsrib2 button{
+  padding: 6px 12px;
+  color: #fff;
+  border: 0.5px solid rgb(220, 212, 212);
+  border-radius: 8px;
+  background-color: rgb(60, 102, 240);
+  cursor: pointer;
+}
+.Contact .fin .subsrib2 h6{
+  padding: 2vh 0 0 0;
+  color: #fff;
+}
+/************ Mobail media*************/
+@media (max-width:768px) {
+  html{
+    font-size: 55%;
+  }
+  .navbar ul li a{
+    display: none;
+  }
+  
+  header .navbar ul{
+    flex-flow: column;
+  }
+  header{
+    height: 10vh;
+  }
+  header .navbar{
+    opacity: 0;
+  }
+  header .navbar ul li{
+    margin:1rem 0;
+    width:100%;
+    text-align: center;
+  }
+
+  header .fa-bars{
+    display: block;
+    font-size: 25px;
+    position: absolute;left: 90%;bottom: 50%;
+    color: #fff;
+  }
+
+  header .navbar ul li a{
+    font-size: 3rem;
+    display: block;
+    color: #000;
+  }
+
+  header .nav-toggle{
+    opacity: 1;
+  }
+  header .nav-toggle ul {
+    background-color: #fff;
+  }
+
+  .Services .cards{
+    display: flex;
+    flex-direction: column;
+  }
+  .Services .cards .card p{
+    width: 35%;
+  }
+  .Our-Works .parts{
+    display: flex;
+    flex-direction: column;
+  }
+  .Our-Works .parts .parte{
+    position: relative;
+    top: 5vh;
+  }
+  .Clients .teams{
+    display: flex;
+    flex-direction: column;
+    }
+    .link{
+      position: relative;
+      bottom: 4vh;
+    }
+    .Clients .teams .images span img{
+      height: 190px;
+      width: 190px;
+    }
+    .Clients .comment span{
+      position: relative;
+      left: 20vh;bottom: 6vh;
+    }
+    .Contact .fin{
+      display: flex;
+      flex-direction: column;
+      gap: 1vh;
+    }
+    .Contact{
+      background-color: rgb(2, 2, 12);
+      height: 60vh;
+    }
+}
