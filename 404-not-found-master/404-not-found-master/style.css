@@ -1,0 +1,57 @@
+*{
+  padding: 0;margin: 0;box-sizing: border-box;
+}
+header{
+  font-family: sans-serif;
+  margin-top:4vh ;margin-left: 3vh;
+}
+.home .iamges img{
+  width: 400px;
+  height: 400px;
+  position: relative;
+  top: 12vh;
+}
+.home{
+  display: flex;
+  flex-direction: row;
+}
+.home .massage h1{
+  font-family: sans-serif;
+  width: 80%; 
+  font-size: 40px;
+  padding: 10px;
+  position: relative;
+  top: 12vh;
+}
+
+.home .massage p{
+  padding: 10px;
+  width: 60%;
+  font-size: 20px;
+  font-family: sans-serif;
+  position: relative;
+  top: 14vh;
+}
+.home .massage button{
+  position: relative;
+  top: 16vh;
+  background-color: #000;
+  color: #fff;
+  border: 1px solid;
+  padding: 10px 12px;
+  margin-left: 2vh;
+}
+.home .massage button:hover{
+  background-color: #fff;
+  color: #000;
+  cursor: pointer;
+}
+@media (max-width: 564px) {
+  .home{
+    display: flex;
+    flex-direction: column;
+  }
+  html{
+    font-size: 55%;
+  }
+}
